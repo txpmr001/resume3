@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="This JQuery Mobile webpage contains
+	the online version of the resume of Peter M Reynolds">
+  <meta name="keywords" content="resume, Peter M Reynolds, online, JQuery Mobile,
+  	html, css, javascript">
+  <meta name="author" content="Peter M Reynolds">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <title>Resume of Peter M. Reynolds</title>
+</head>
+<body>
+  
+<div data-role="page" id="page1">
+  <!-- single page jquery mobile app:
+  	     data-role header
+  	   	 data-role main
+  	     data-role footer
+         data-role panel
+  -->	    
+
+  <!-- header -->
+  <div data-role="header" data-position="fixed">
+  	<h1>Resume of Peter M Reynolds</h1>
+  </div>
+  <!-- /header -->
+  
+  <!-- main -->
+  <div data-role="main" class="ui-content">
+
+    <div class="flex-grid-40-60" id="intro">
+      <div class="col flex-column main-center cross-center" id="intro-photo">
+        <div class="intro-container">
+          <img src="images/me2.jpg" alt="Me" id="photo">
+        </div>
+      </div>
+      <div class="col flex-column main-center cross-center">
+        <div class="intro-container">
+          <h2 align="center">Peter M. Reynolds</h2>
+          <p>
+            I am an experienced IT professional new to the world of web development. 
+            I recently completed Udacity's Front-End Web Developer Nanodegree program. 
+            I will be keeping this resume updated as I acquire new skills and complete new projects.
+          </p>
+  
+          <h3>Skills at a Glance:</h2>      
+        
+          <ul>
+            <li class="skill-item"><span>Web Development</span></li>
+            <li class="skill-item"><span>HTML, CSS, JavaScript</span></li>
+            <li class="skill-item"><span>Programming</span></li>
+            <li class="skill-item"><span>Python, Visual Basic, REXX</span></li>
+            <li class="skill-item"><span>Unix System Administration</span></li>
+            <li class="skill-item"><span>Oracle Database Administration</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div data-role="collapsible" class="custom-collapsible">
+      <h3>Work Experience</h3>
+  
+      <div class="work-entry">
+        <div><a href="http://www.universityhealthsystem.com/" target="_blank">University Health System</a> - <span class="job-title">Unix System Administrator</span></div>
+        <div class="city">San Antonio, TX</div>
+        <div class="dates">1999-2001</div>
+        <p>
+          I was the system administrator for multiple AIX and Linux servers. 
+          My resposibilities included system installation and maintenance, security,
+          performance, and data backup.
+        </p>
+      </div>
+      
+      <div class="work-entry">
+        <div><a href="https://www.saws.org/" target="_blank">San Antonio Water System</a> - <span class="job-title">Database Administrator</span></div>
+        <div class="city">San Antonio, TX</div>
+        <div class="dates">1992-1999</div>
+        <p>I was the database administrator for Oracle7 databases running in both IBM mainframe and Unix environments.</p>
+      </div>        
+      
+      <div class="work-entry">
+        <div><span class="almost-link">Relational Concepts</span> - <span class="job-title">Senior Consultant</span></div>
+        <div class="city">Houston, TX</div>
+        <div class="dates">1990-1992</div>
+        <p>I served as a project manager/team member on several application development teams creating Oracle based applicaitons for clients in the energy industry.</p>
+      </div>
+      
+      <a href="#work-panel" data-role="button" data-inline="true">Complete History</a>
+    </div>
+
+    <div data-role="collapsible" class="custom-collapsible">
+      <h3>Traditional Education</h3>
+  
+      <div class="education-entry">
+        <div><a href="http://uiw.edu" target="_blank">Incarnate Word University</a></div>
+        <div class-"city">San Antonio, TX</div>
+        <div>1998 - <span class="program">Master of Business Administration</span></div>
+      </div><br>
+  
+      <div class="education-entry">
+        <div><a href="http://tamu.edu/" target="_blank">Texas A&ampM University</a></div>
+        <div class-"city">College Station, TX</div>
+        <div>1984 - <span class="program">Bachelor of Science in Computer Science</div>
+      </div>
+    </div>
+
+    <div data-role="collapsible" class="custom-collapsible">
+      <h3>Online Education</h3>
+
+      <div class="education-entry">
+        <div><a href="http://udacity.com" target="_blank">Udacity</a></div>
+        <div class="program"><a href="https://confirm.udacity.com/AGTAPMMP" target="_blank">Front-End Web Developer Nanodegree</a></div>
+        <div class="dates">2018</div>
+      </div><br>
+
+      <div class="education-entry">
+        <div><a href="http://caltech.edu" target="_blank">California Institute of Technology</a></div>
+        <div class="program"><a href="https://work.caltech.edu/telecourse.html" target="_blank">Learning from Data</a></div>
+        <div class="dates">2013</div>
+      </div><br>
+
+      <div class="education-entry">
+        <div><a href="http://udacity.com" target="_blank">Udacity</a></div>
+        <div class="program">CS-253: Web Development - How to Build a Blog</div>
+        <div class="dates">2012</div>
+      </div><br>
+
+      <div class="education-entry">
+        <div><a href="http://udacity.com" target="_blank">Udacity</a></div>
+        <div class="program">CS-101: Introduction to Computer Science - Building a Search Engine</div>
+        <div class="dates">2012</div>
+      </div>
+    </div>
+    
+    <div data-role="collapsible" class="custom-collapsible">
+      <h3>Projects</h3>
+  
+      <div class="project-entry">
+        <div class="flex-grid-responsive">
+          <div class="col project-description">
+            <div class="new-project"><a href="https://github.com/txpmr001/u-neighborhood" target="_blank">Udacity - Neighborhood Map</a></div>
+            <p>
+              This single page Google Maps web application displays neighborhood locations 
+              with additional information collected through Google Places, Yelp, and 
+              Foursquare API's. API requests are routed through a PHP proxy in order 
+              to conceal API keys and to circumvent CORS restrictions. The application 
+              is based on the 
+              <a href="http://jquerymobile.com" target="_blank">jQuery Mobile</a> 
+              web framework and uses a 
+              <a href="http://knockoutjs.com" target="_blank">Knockout</a>
+              view model.
+            </p>
+          </div> 
+
+          <div class="col project-image">
+            <div class="new-project"><a href="https://github.com/txpmr001/u-neighborhood" target="_blank"><img src="images/snip-neighborhood-map-2.jpg" alt="Neighborhood Map" class="project-image"></a></div>
+          </div> 
+        </div> 
+      </div>
+      <!-- /project-entry -->
+      <hr>
+
+      <div class="project-entry">
+
+        <div class="flex-grid-responsive">
+          <div class="col project-description">
+            <div class="new-project"><a href="https://github.com/txpmr001/PyPlayer" target="_blank">PyPlayer - A Local Video Player in Python</a></div>
+            <p>
+              PyPlayer uses a Kivy GUI to allow users to select and play movies 
+              from a list of local movie files. Movie information is collected 
+              through the Open Movie Data Base (OMDb) API and stored in a local 
+              ZODB object database.
+            </p>
+          </div> 
+
+          <div class="col">
+            <div class="new-project"><a href="https://github.com/txpmr001/PyPlayer" target="_blank"><img src="images/pyplayer.jpg" alt="PyPlayer" class="project-image"></a></div>
+          </div> 
+        </div> 
+      </div>
+      <!-- /project-entry --> 
+    </div>
+
+    <a download href="Resume Peter M Reynolds.pdf" target="_blank" class="ui-btn"><i class="fa fa-download"></i>&nbsp;Save Resume as PDF</a>
+
+  </div>
+  <!-- /main -->
+
+  <!-- footer -->
+  <div data-role="footer" data-position="fixed">
+  	<div class="footer-container">
+  	  <div class="flex-item footer-item"><i class="fa fa-fw fa-phone"></i><span class="contactInfo"><a href="tel:210-599-9271"> 210-599-9271</a></span></div>
+  	  <div class="flex-item footer-item"><i class="fa fa-fw fa-envelope-o"></i><span class="contactInfo"><a href="mailto:txpmr@hotmail.com"> txpmr@hotmail.com</a></span></div>
+  	  <div class="flex-item footer-item"><i class="fa fa-fw fa-github"></i><span class="contactInfo"><a href="http://github.com/txpmr001" target="_blank"> txpmr001</a></span></div>
+      <div class="flex-item footer-item"><i class="fa fa-fw fa-map-marker"></i><span class="contactInfo"><a href="https://www.google.com/maps/place/San+Antonio,+TX" target="_blank"> San Antonio, TX</a></span></div>
+    </div>
+  </div>
+  <!-- /footer -->
+
+  <!-- work history panel -->
+  <div data-role="panel" data-position="left" data-display="overlay" id="work-panel">
+
+    <div data-role="header" data-position="fixed">
+      <h2>Complete History</h2>
+      <a href="#page1" data-role="button" data-rel="close" data-icon="delete" class="ui-btn-left ui-mini">Close</a>
+    </div>
+
+    <div class="panel-content">
+      <h4>Unix System Administrator / Team Leader – University Health System, San Antonio, Texas</h4>
+      <span>4/99 to 2/01</span>
+      
+      <p>
+      <span>Unix System Administrator</span>
+      – I was responsible for ten AIX and Linux servers including system installation
+      and maintenance, security, performance, and data backup. I also developed
+      a web-based application allowing users to monitor and control print requests;
+      and a web-based API system allowing physicians to simultaneously collect
+      and display information from multiple systems.
+      </p>
+      
+      <p>
+      <span>Team Leader</span>
+      - In the Technical Services area, I supervised four to eight team members
+      responsible for Network servers, Desktop operating systems and applications,
+      and IBM mainframe system administration.
+      </p>
+      
+      <h4>Database Administrator / Applications Analyst - San Antonio Water System, San Antonio, Texas</h4>
+      <span>8/92 to 4/99</span>
+      
+      <p>
+      <span>Database Administration</span> - I was responsible for the administration
+      of an Oracle7 database running in a Unix environment.  My duties included
+      software installation and maintenance, database definition, security management,
+      database tuning, and problem resolution.
+      </p>
+      
+      <p>
+      <span>Application Development</span> - I created several Access applications
+      to support specific departmental activities such as complaint investigations,
+      flat rate sewer billing, plat approval, and CIP budgeting.  These applications
+      generally consisted of a database, forms, and reports accessed by multiple
+      users over a LAN.
+      </p>
+      
+      <p>
+      <span>Systems Administration</span> - I was the primary system administrator
+      for an IBM RS/6000 running AIX. I also worked with users to resolve networking
+      and desktop problems in a Windows / NetWare / LAN environment.
+      </p>
+      
+      <h4>Senior Consultant - Relational Concepts International, Houston, Texas</h4>
+      <span>3/91 to 8/92</span>
+      
+      <p>
+      I served as a project manager/team member on several application development teams
+      for clients in the energy industry. My responsibilities included project planning,
+      management and evaluation of team members, and coordinating the transition
+      to new production systems.  As a project team member, my responsibilities included
+      system analysis, design, and implementation through activities such as:
+      participation in Joint Application Development sessions; participation in
+      user interview and feedback sessions; creation of entity-relationship data models
+      and functional hierarchies; development of detailed system requirements
+      and specifications documents; application coding; and application installation
+      and testing. Most of the applications we developed were based on the Oracle RDBMS
+      and were created with tools such as Oracle CASE, SQL*Forms, and SQL*ReportWriter.
+      </p>
+      
+      <h4>Systems Analyst - Analysts International, Houston, Texas</h4>
+      <span>8/90 to 3/91</span>
+      
+      <p>
+      Working for client Panhandle Eastern, I developed three Oracle based applications
+      to: 1) Transmit Gas Contract data to external systems; 2) Receive and verify
+      Gas Contract data; 3) Produce Imbalance reports. The Applications were developed
+      with SQL*Forms, SQL*Plus, PRO*COBOL, and REXX.
+      </p>
+      
+      <h4>Systems Analyst - A.T. Kearney, College Station, Texas</h4>
+      01/88 to 08/90
+      
+      <p>
+      I developed Oracle based applications to provide job analysis capabilities
+      in support of management consulting activities.  My responsibilities included
+      all phases of software development:  systems analysis, specification, design,
+      application coding, and testing. I also provided system and database administration
+      for an Oracle RDBMS including installation, database definition,
+      security management, and database tuning.
+      </p>
+      
+      <h4>Systems Analyst / Programmer/ Programming Assistant - Texas A&M University Systems Software Group, College Station, Texas</h4>
+      05/82 to 01/88 
+      
+      <p>
+      I was responsible for a VM/SP HPO 4.2 operating system running on an Amdahl 5860.
+      I also installed, modified, and maintained program products such as
+      FDR/ABR, SAS, SPSS, and language compilers running under an MVS operating system
+      on various Amdahl mainframes.
+      </p>
+    </div>
+    
+    <div style="padding-bottom: 200px;">
+      <!-- <a data-rel="close" data-role="button" data-theme="a" data-icon="delete" data-inline="true">Close</a> -->
+      <a download href="Resume Peter M Reynolds.pdf" target="_blank" class="ui-btn"><i class="fa fa-download"></i>&nbsp;Save Resume as PDF</a>
+    </div>    
+  </div>
+  <!-- /work history panel -->
+</div> <!-- /page -->
+ 
+<script src="js/main.js"></script>
+
+</body>
+</html>
