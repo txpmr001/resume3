@@ -1,10 +1,10 @@
 ## Online Resume
 
 This webpage is hosted here: 
-[http://24.28.142.95/aaa/index.html](http://24.28.142.95/u-neighborhood/index.html)
+[https://txpmr001.github.io/resume3](https://txpmr001.github.io/resume3)
 
 The github repository for this project is here: 
-[https://txpmr001.github.io/resume3](https://txpmr001.github.io/resume3)
+[https://github.com/txpmr001/resume3](https://github.com/txpmr001/resume3)
 
 #### Description
 
